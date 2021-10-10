@@ -1,0 +1,19 @@
+.label{
+    font-size: 25px;
+}
+#info{
+    width: 40%;
+    padding: 20px;
+    float: left;
+    border: 5px black solid;
+
+}
+#map{
+
+    padding: 20px;
+    float: left;
+}
+
+#outer{
+
+}
