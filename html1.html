@@ -8,7 +8,8 @@
 <body>
 
 <div id="outer">
-<div id="map">
+    <div id="map">
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
      id="svg2" height="654.76562" width="646.36719" version="1.1" onclick>
@@ -99,11 +100,13 @@
 
 
 <script>
+
     const URL = "https://countries.plaul.dk/api/countries/"
     let mapInfo = []
     mapInfo.name = [] //ligegyldig
     let lastCountry ="dk" //cowboy kode
-    let flagUrl = ""
+    let flagUrl = "" //sikkert også ligegyldig..
+
     document.getElementById("svg2").onclick = mapOnClick
 
     function mapOnClick(evt) {
